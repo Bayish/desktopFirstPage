@@ -1,0 +1,178 @@
+@media screen and (max-width:1125px){
+    .main-block {
+        background-position: 100% 0;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .header-inner {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        font-size: 16px;
+    }
+
+    .main-nav a {
+        font-size: 12px;
+    }
+    .main-block h1,
+    .main-block p{
+        font-size: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .service-top {
+        display: flex;
+        vertical-align: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .service-top{
+        line-height: 40px;
+    }
+
+    .service-top h1 {
+        font-size: 44px;
+    }
+
+    .service-top p {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .service-boxes h4 {
+        font-size: 25px;
+    }
+    
+    .service-boxes a::after{
+        font-size: 50px;
+    }
+    .service-boxes a:hover::after{
+        font-size: 50px;
+    }
+
+    .footer-info .ic {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+    }
+
+    .footer-info li{
+        margin-top: 10px;
+    }
+    .footer-info .fb::after {
+        font-size: 25px;
+    }
+    .footer-info .tw::after {
+        font-size: 18px;
+    }
+    .footer-info .google::after {
+        font-size: 24px;
+    }
+    .footer-info .ball::after {
+        font-size: 21px;
+    }
+    .footer-info .be::after {
+        font-size: 17px;
+    }
+
+    .footer-info p {
+        font-size: 21px;
+        text-align: center;
+    }
+    
+    
+}
+
+@media screen and (max-width: 500px) {
+    .main-nav {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:320px){
+    body{
+        font-size: 13px;
+    }
+
+    .main-nav a {
+        font-size: 9px;
+    }
+    .main-block h1,
+    .main-block p{
+        font-size: 27px;
+        width: 100%;
+        height: auto;
+    }
+
+    .service-top {
+        display: flex;
+        vertical-align: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .service-top h1 {
+        font-size: 41px;
+    }
+
+    .service-top{
+        line-height: 40px;
+    }
+
+    .service-top p {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .service-boxes h4 {
+        font-size: 22px;
+    }
+
+    .service-boxes a::after{
+        font-size: 40px;
+    }
+    .service-boxes a:hover::after{
+        font-size: 40px;
+    }
+    .footer-info .ic {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .footer-info li{
+        margin-top: 10px;
+    }
+    .footer-info .fb::after {
+        font-size: 21px;
+    }
+    .footer-info .tw::after {
+        font-size: 14px;
+    }
+    .footer-info .google::after {
+        font-size: 19px;
+    }
+    .footer-info .ball::after {
+        font-size: 16px;
+    }
+    .footer-info .be::after {
+        font-size: 13px;
+    }
+
+    .footer-info p {
+        text-align: center;
+        font-size: 15px;
+    }
+}
